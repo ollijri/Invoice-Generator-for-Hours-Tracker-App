@@ -40,7 +40,7 @@ header_paragraph.text = header_text
 header_paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
 
 # Add recipient information
-recipient_text = "[Name]\n[Address Line 1]\n[Address Line 2]\n[City]\nGL54 3HU"
+recipient_text = "[Name]\n[Address Line 1]\n[Address Line 2]\n[City]\n[Postcode]"
 recipient_paragraph = doc.add_paragraph()
 recipient_paragraph.text = recipient_text
 
